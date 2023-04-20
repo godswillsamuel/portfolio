@@ -1,0 +1,96 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    size: 3rem;
+    color: #8f8f8f;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    size: 3rem;
+    line-height: 3;
+    color: #8f8f8f;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+#Title{
+    background-color: maroon;
+    color: #fff;
+    padding-bottom: 1%;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.navbar{
+    padding-bottom: 2.5rem;
+}
+.nav-item{
+ padding: 0px 18px;
+}
+.title-image{
+    width: 60%; 
+    border-radius: 100%;
+}
+
+/* about section*/
+#about {
+    width: 100%;
+    line-height: 2.5;
+    padding: 7% 15%;
+    font-weight: bold;
+    font-size: large;
+}
+
+/* services section*/
+#services{
+    background-color: maroon;
+    padding-bottom: 2%;
+}
+
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #fff;
+}
+.servicesText:hover {
+    border: 1px solid #110d0e;
+}
+
+.card-text{
+    text-align: center;
+    font-family: 'oswald';
+    font-weight: bold;
+}
+
+.form{
+    text-align: center;
+}
+/* footer styling */
+#footer{
+    padding: 7% 10%;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    
+}
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: #fff;
+}
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+    background-color: maroon;
+}
